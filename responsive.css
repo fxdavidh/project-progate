@@ -1,0 +1,40 @@
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .header-right {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: block
+    }
+
+    .service{
+        width: 100%;
+    }
+
+    .barang {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+}
+
+/* Untuk Laptop */
+@media all and (max-width: 1000px) {
+    .service {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+    .heading h3 {
+      font-size: 10px;
+    }
+
+    .barang {
+        width: 50%;
+        flex-direction: wrap;
+      }
+      
+    .heading h2 {
+        font-size: 20px;
+  }
+}

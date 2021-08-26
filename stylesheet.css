@@ -1,0 +1,312 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgb(128,128,128);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-right a:hover {
+  background-color: rgba(211,211,211, 0.5);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.header-right a {
+  display: block;
+  line-height: 65px;    
+  padding: 0 25px;
+  transition: all 0.5s;
+  color: white;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(211,211,211, 0.8)
+}
+
+.header-left {
+  float: left;
+  line-height:65px;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+  background-image: url(https://3.bp.blogspot.com/-DFGxTRQn3WI/UdvFF7_sUTI/AAAAAAAAAbQ/O-5lDFplCmE/s1600/Gambar+Foto+dekorasi+dinding+minimalis+Modern+dan+Indah+3.jpg);
+  background-size: cover;
+  padding: 210px 0 550px 0;
+}   
+
+.top-wrapper h1 {
+  margin-left: 5px;
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+  opacity: 0.8;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  font-family:"Lucida Grande";
+}
+.clear{
+  clear: left;
+}
+.services-contents {
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #636e72;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.service {
+  float: left;
+  width: 25%;
+}
+
+.service-icon {
+  position: relative;
+}
+
+.service-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: white;
+}
+
+.service-icon {
+  cursor: pointer;
+}
+
+.clear {
+  clear: left;
+}
+
+.barang-dijual {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(100,130,128);
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.barang {
+  float: left;
+  width: 25%;
+}
+
+.barang-icon {
+  position: relative;
+}
+
+.barang-icon img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(116, 116, 89);
+}
+
+.barang-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.shopnow {
+  background-color: rgb(116, 116, 89);
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.container-new {
+  height: 100vh;
+  display: flex;
+  background: rgb(128,128,128);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-new h1 {
+  margin: 3rem 0;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+.overview-wrapper {
+  overflow: hidden;
+  height: 480px;
+  width: 720px;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  transition: 1s;
+}
+
+.image-wrapper img {
+  height: 480px;
+  width: 720px;
+}
+
+.button-wrapper {
+  margin: .5rem auto 5rem;
+}
+
+.button-wrapper input{
+  margin: 0 3px;
+  opacity: .2;
+}
+
+input[type='radio']:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: black;
+  content: '';
+  display: inline-block;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: blueviolet;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+      padding: 0 1rem;
+  }
+
+  .overview .container {
+      height: 70vh;
+  }
+
+  .overview-wrapper {
+      overflow: hidden;
+      height: 240px;
+      width: 360px;
+  }
+
+  .image-wrapper {
+      display: flex;
+      flex-wrap: nowrap;
+      position: relative;
+      transition: 1s;
+  }
+
+  .image-wrapper img {
+      height: 240px;
+      width: 360px;
+  }
+
+  .button-wrapper {
+      margin: .5rem auto 5rem;
+  }
+
+  .button-wrapper input{
+      margin: 0 3px;
+      opacity: .2;
+  }
+
+  input[type='radio']:after {
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+      background-color: var(--black);
+      content: '';
+      display: inline-block;
+      border: 2px solid var(--white);
+  }
+
+  input[type='radio']:checked:after {
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+      background-color: var(--pink);
+  }
+}
